@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>SGPA Calculator</title>
+  </head>
+  <body>
+    <div class="mycontainer">
+      <h3>Calculate your SGPA</h3>
+      <form action="" method="POST" id="myForm">
+        <div class="my-inputs">
+          <label for="">18CS51</label>
+          <input
+            id="sub1"
+            required
+            class="input is-primary is-small"
+            type="number"
+            placeholder="Enter marks"
+            name="subject"
+          />
+        </div>
+
+        <div class="my-inputs">
+          <label for="">18CS52</label>
+          <input
+            id="sub2"
+            required
+            class="input is-primary is-small"
+            type="number"
+            placeholder="Enter marks"
+            name="subject"
+          />
+        </div>
+
+        <div class="my-inputs">
+          <label for="">18CS53</label>
+          <input
+            id="sub3"
+            required
+            class="input is-primary is-small"
+            type="number"
+            placeholder="Enter marks"
+            name="subject"
+          />
+        </div>
+
+        <div class="my-inputs">
+          <label for="">18CS54</label>
+          <input
+            id="sub4"
+            required
+            class="input is-primary is-small"
+            type="number"
+            placeholder="Enter marks"
+            name="subject"
+          />
+        </div>
+
+        <div class="my-inputs">
+          <label for="">18CS55</label>
+          <input
+            id="sub5"
+            required
+            class="input is-primary is-small"
+            type="number"
+            placeholder="Enter marks"
+            name="subject"
+          />
+        </div>
+
+        <div class="my-inputs">
+          <label for="">18CS56</label>
+          <input
+            id="sub6"
+            required
+            class="input is-primary is-small"
+            type="number"
+            placeholder="Enter marks"
+            name="subject"
+          />
+        </div>
+
+        <div class="my-inputs">
+          <label for="">18CSL57</label>
+          <input
+            id="sub7"
+            required
+            class="input is-primary is-small"
+            type="number"
+            placeholder="Enter marks"
+            name="subject"
+          />
+        </div>
+
+        <div class="my-inputs">
+          <label for="">18CSL58</label>
+          <input
+            id="sub8"
+            required
+            class="input is-primary is-small"
+            type="number"
+            placeholder="Enter marks"
+            name="subject"
+          />
+        </div>
+
+        <div class="my-inputs last-child">
+          <label for="">Environmental Studies</label>
+          <input
+            id="sub9"
+            required
+            class="input is-primary is-small"
+            type="number"
+            placeholder="Enter marks"
+            name="subject"
+          />
+        </div>
+      <div id="buttons">
+        <button type="submit" onclick="calculate()" class="button is-primary">
+          Calculate
+        </button>
+        <input type="reset"  class="button is-outlined" value="Clear" />
+          
+        
+      </div>
+      </form>
+      <div id="result" class="showResult"></div>
+
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
